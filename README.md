@@ -39,8 +39,9 @@ SELECT year, AVG(total_flights) AS avg_flights_per_customer
 FROM customer_data
 GROUP BY year
 ORDER BY year
+````
 
-** Query 2:** Distribusi rata-rata loyalty points berdasarkan status kartu loyalitas
+**Query 2:** Distribusi rata-rata loyalty points berdasarkan status kartu loyalitas
 ```sql
 SELECT loyalty_card, AVG(points_accumulated) AS avg_points
 FROM customer_data
