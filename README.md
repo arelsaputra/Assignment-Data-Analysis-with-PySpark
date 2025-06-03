@@ -13,7 +13,7 @@ Proyek ini merupakan tugas dalam Bootcamp Data Engineering Batch 10 - Dibimbing.
 
 ## Cara Menjalankan
 
-1. Pastikan PySpark, Matplotlib, dan Seaborn terinstall di lingkungan Python Anda.  
+1. Pastikan PySpark, Matplotlib, dan Seaborn terinstall di lingkungan Python.  
    Contoh install dengan pip:
    ```bash
    pip install pyspark matplotlib seaborn
