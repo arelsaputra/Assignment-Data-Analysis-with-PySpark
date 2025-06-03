@@ -39,8 +39,9 @@ SELECT year, AVG(total_flights) AS avg_flights_per_customer
 FROM customer_data
 GROUP BY year
 ORDER BY year
+````
 
-** Query 2:** Distribusi rata-rata loyalty points berdasarkan status kartu loyalitas
+**Query 2:** Distribusi rata-rata loyalty points berdasarkan status kartu loyalitas
 ```sql
 SELECT loyalty_card, AVG(points_accumulated) AS avg_points
 FROM customer_data
@@ -48,7 +49,7 @@ GROUP BY loyalty_card
 ORDER BY avg_points DESC
 ````
 
-** Query 3:** Hubungan tingkat pendidikan pelanggan dengan rata-rata jumlah penerbangan
+**Query 3:** Hubungan tingkat pendidikan pelanggan dengan rata-rata jumlah penerbangan
 
 ```sql
 SELECT education, AVG(total_flights) AS avg_flights
@@ -57,7 +58,7 @@ GROUP BY education
 ORDER BY avg_flights DESC
 ```
 
-** Query 4:** Tren jumlah penerbangan dari waktu ke waktu
+**Query 4:** Tren jumlah penerbangan dari waktu ke waktu
 
 ```sql
 SELECT year, SUM(total_flights) AS total_flights
