@@ -19,3 +19,15 @@ Proyek ini merupakan tugas dalam Bootcamp Data Engineering Batch 10 - Dibimbing.
    pip install pyspark matplotlib seaborn
    ```
    
+2. Jalankan script PySpark yang tersedia untuk melakukan proses ETL dan analisis data.
+3. Lihat hasil visualisasi di folder visualizations/ dan hasil data di folder output/.
+
+## Struktur Folder
+- /visualizations — gambar grafik hasil analisis (.png)
+- /output — hasil export dataset (.csv)
+- /scripts (opsional) — script PySpark analisis
+- Dokumentasi_Analisis_Data_Maskapai.md — dokumentasi lengkap
+
+## Kontak
+Dibuat oleh Mochammad Azriel Rizky Syahputra (saputraarel@gmail.com)
+Untuk Bootcamp Data Engineering Batch 10, Dibimbing.id
